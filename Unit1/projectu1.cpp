@@ -7,6 +7,7 @@ int main() {
     int num;
     std::cout<<"Please enter a whole number: ";
     std::cin>>num;//assigns entered num to num
+    num=(double)(num);
 
     std::cout<<"A square with side length of "<<num;//computes values for a square and prints
     std::cout<<"\n\t has a perimeter of "<<(4*num);
