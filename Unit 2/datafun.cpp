@@ -5,7 +5,7 @@ using namespace std;
 
 int main() {
     int num;
-    std::cout << "Enter your favorite integer: ";
+    std::cout << "Whats your favorite integer?";
     std::cin >> num;
     
     if (num >= 0) {//checks if positive of negative
@@ -58,6 +58,9 @@ int main() {
         default:
             std::cout<<"\tand it is not the atomic number of a noble gas.";
         
-    }
+    }//part 1
+    char ch;
+    std::cout<<"Whats your favorite charcter?";
+    std::cin>>ch;
+    
 }
-
