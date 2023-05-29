@@ -8,7 +8,7 @@ int planNum;
 
 std:: cout<<"What is your earth weight?\n";
 std:: cin>>eWeight;
-std::cout<<"Enter a number for the planet: g";
+std::cout<<"Enter a number for the planet: ";
 std:: cin>>planNum;
 switch(planNum){
   case 1:
